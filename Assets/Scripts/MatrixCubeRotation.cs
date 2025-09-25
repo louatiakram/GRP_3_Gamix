@@ -94,11 +94,4 @@ public class MatrixCubeRotation : MonoBehaviour
 
         return result;
     }
-
-    // Display instructions in the GUI
-    /*void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 300, 30), "Press SPACE to toggle rotation");
-        GUI.Label(new Rect(10, 30, 300, 30), "Rotation: " + (isRotating ? "ON" : "OFF"));
-    }*/
 }
